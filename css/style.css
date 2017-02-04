@@ -1,0 +1,247 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+    padding: 0 15px;
+}
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+.page-footer {
+    border-top: solid 1px #a90000;
+}
+
+.highlight {
+    color: #a90000;
+    font-weight: bold;
+    font-size: 110%;
+}
+
+.description {
+    text-align: justify;
+}
+
+/*
+ * Nav bar
+ */
+nav {
+    height: 220px;
+    background-color: #ff9800;
+    box-shadow: none;
+    border-bottom: solid 3px #a90000;
+}
+
+nav .button-collapse {
+    margin: 0 !important;
+}
+
+@media (max-width: 1350px) {
+    #countdown.block {
+        height: auto !important;
+        padding: 5px !important;
+    }
+    #countdown .title {
+        display: none !important;
+    }
+    #countdown .punchline {
+        display: none !important;
+    }
+    .main-content {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 800px) {
+    nav {
+        height: 103px;
+    }
+    .nav-wrapper .brand-logo img {
+        height: 90px;
+    }
+}
+
+nav ul a {
+    color: #fff;
+    background-color: #ff9800;
+}
+
+nav ul a:hover {
+    background-color: #ffd200;
+}
+
+.side-nav a {
+    color: #fff;
+    background-color: #ff9800;
+}
+
+.side-nav a:hover {
+    background-color: #ffd200;
+}
+
+.side-nav {
+    background-color: #ff9800;
+}
+
+.menu-bar {
+    padding-top: 153px;
+}
+
+.follow-us {
+    text-align: right;
+}
+
+.follow-us img {
+    vertical-align: -10px;
+}
+
+/*
+ * CountDown
+ */
+#countdown.block {
+    padding: 15px;
+    height: 145px;
+    text-align: center;
+    background-color: #ffd200;
+    border: solid 2px #a90000;
+}
+
+#countdown.block .title {
+    text-align: left;
+}
+
+.block .title {
+    font: bold 22px/1 "Helvetica";
+    text-transform: uppercase;
+    margin: 0 0 5px;
+    color: #fff;
+}
+
+#countdown.block .punchline {
+    display: block;
+    text-align: center;
+    font: normal 16px 'Helvetica';
+    text-transform: uppercase;
+}
+
+#clock {
+    font: bold 22px/1 "Helvetica";
+    text-transform: uppercase;
+}
+
+/*
+ * Content
+ */
+.section {
+    padding-top: 40px;
+}
+
+.section ul {
+    list-style-type: square;
+}
+
+.section ul li {
+    padding-left: 16px;
+}
+
+.section ul li:before {
+    content: "•"; 
+    padding-right: 8px;
+    color: #3498db; 
+}
+
+.result-link {
+    height: 158px;
+    width: 158px;
+    background: #3498db;
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+    margin-right: 20px;
+    font: bold 15px 'Helvetica';
+    color: #fff;
+}
+
+.result-link-2 {
+    height: 158px;
+    width: 158px;
+    background: #3498db;
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+    margin-right: 20px;
+    font: bold 15px 'Helvetica';
+    color: #fff;
+}
+
+.photo-link {
+    height: 158px;
+    width: 158px;
+    background: #3498db;
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+    margin-right: 20px;
+    font: bold 20px 'Helvetica';
+    color: #fff;
+}
+
+.photo-link-2 {
+    height: 158px;
+    width: 158px;
+    background: #27ae60;
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+    margin-right: 20px;
+    font: bold 20px 'Helvetica';
+    color: #fff;
+}
+
+.photo-link-3 {
+    height: 158px;
+    width: 158px;
+    background: #e74c3c;
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+    margin-right: 20px;
+    font: bold 20px 'Helvetica';
+    color: #fff;
+}
+
+.photo-presentation {
+    margin-bottom: 25px;
+}
+
+.photo-presentation img {
+    vertical-align: -10px;
+}
+
+.infos-text {
+    margin-top: 25px;
+}
+
+.reglement-link {
+    height: 164px;
+    width: 158px;
+    background: #3498db;
+    display: block;
+    text-align: center;
+    padding: 15px;
+    font: bold 20px 'Helvetica';
+    color: #fff;
+}
+
+
+/*
+ * Footer
+ */
+ul#partenaires-list li {
+    display: inline;
+}
