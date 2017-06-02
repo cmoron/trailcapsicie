@@ -32,9 +32,9 @@
  */
 nav {
     height: 220px;
-    background-color: #ff9800;
+    background-color: #F5AB35;
     box-shadow: none;
-    border-bottom: solid 3px #a90000;
+    /*border-bottom: solid 3px #a90000;*/
 }
 
 nav .button-collapse {
@@ -68,24 +68,26 @@ nav .button-collapse {
 
 nav ul a {
     color: #fff;
-    background-color: #ff9800;
+    background-color: #F5AB35;
 }
 
 nav ul a:hover {
-    background-color: #ffd200;
+    /*background-color: #ffd200;*/
+    background-color: #F5D76E;
 }
 
 .side-nav a {
     color: #fff;
-    background-color: #ff9800;
+    background-color: #F5AB35;
 }
 
 .side-nav a:hover {
-    background-color: #ffd200;
+    /*background-color: #ffd200;*/
+    background-color: #F5D76E;
 }
 
 .side-nav {
-    background-color: #ff9800;
+    background-color: #F5AB35;
 }
 
 .menu-bar {
@@ -107,8 +109,9 @@ nav ul a:hover {
     padding: 15px;
     height: 145px;
     text-align: center;
-    background-color: #ffd200;
-    border: solid 2px #a90000;
+    /*background-color: #ffd200;*/
+    background-color: #F5D76E;
+    /*border: solid 2px #a90000;*/
 }
 
 #countdown.block .title {
@@ -228,6 +231,10 @@ nav ul a:hover {
     vertical-align: -10px;
 }
 
+.bx-wrapper .bx-controls-direction a {
+    z-index: 0 !important;
+}
+
 .infos-text {
     margin-top: 25px;
 }
@@ -249,4 +256,8 @@ nav ul a:hover {
  */
 ul#partenaires-list li {
     display: inline;
+}
+
+.orange {
+  background-color: #F5AB35 !important;
 }
