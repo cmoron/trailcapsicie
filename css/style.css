@@ -6,6 +6,14 @@
  * Made By MaterializeCSS.com
  */
 
+/* ===================================================
+ * Materialize/CSS overwrite BEGIN
+ * ===================================================
+ */
+.orange {
+  background-color: #F5AB35 !important;
+}
+
 .icon-block {
     padding: 0 15px;
 }
@@ -13,22 +21,19 @@
     font-size: inherit;
 }
 
-.page-footer {
-    border-top: solid 1px #a90000;
+h1 {
+    color: #a90000 !important;
+    font-weight: bold !important;
+    font-size: 120% !important;
 }
+/* ===================================================
+ * Materialize/CSS overwrite END
+ * ===================================================
+ */
 
-.highlight {
-    color: #a90000;
-    font-weight: bold;
-    font-size: 110%;
-}
-
-.description {
-    text-align: justify;
-}
-
-/*
- * Nav bar
+/* ===================================================
+ * Nav bar BEGIN
+ * ===================================================
  */
 nav {
     height: 220px;
@@ -101,9 +106,30 @@ nav ul a:hover {
 .follow-us img {
     vertical-align: -10px;
 }
+/* ===================================================
+ * Nav bar END
+ * ===================================================
+ */
 
-/*
- * CountDown
+/* ===================================================
+ * Footer BEGIN
+ * ===================================================
+ */
+ul#partenaires-list li {
+    display: inline;
+}
+
+.page-footer {
+    border-top: solid 1px #a90000;
+}
+/* ===================================================
+ * Footer END
+ * ===================================================
+ */
+
+/* ===================================================
+ * CountDown BEGIN
+ * ===================================================
  */
 #countdown.block {
     padding: 15px;
@@ -137,8 +163,14 @@ nav ul a:hover {
     text-transform: uppercase;
 }
 
-/*
- * Content
+/* ===================================================
+ * CountDown END
+ * ===================================================
+ */
+
+/* ===================================================
+ * Content General BEGIN
+ * ===================================================
  */
 .section {
     padding-top: 40px;
@@ -158,6 +190,25 @@ nav ul a:hover {
     color: #3498db; 
 }
 
+.highlight {
+    color: #a90000;
+    font-weight: bold;
+    font-size: 110%;
+}
+
+.description {
+    text-align: justify;
+}
+
+/* ===================================================
+ * Content General END
+ * ===================================================
+ */
+
+/* ===================================================
+ * REsults Boxes BEGIN
+ * ===================================================
+ */
 .result-link {
     height: 158px;
     width: 158px;
@@ -183,7 +234,15 @@ nav ul a:hover {
     font: bold 15px 'Helvetica';
     color: #fff;
 }
+/* ===================================================
+ * REsults Boxes END
+ * ===================================================
+ */
 
+/* ===================================================
+ * Photo Boxes BEGIN
+ * ===================================================
+ */
 .photo-link {
     height: 158px;
     width: 158px;
@@ -230,6 +289,10 @@ nav ul a:hover {
 .photo-presentation img {
     vertical-align: -10px;
 }
+/* ===================================================
+ * Photo Boxes END
+ * ===================================================
+ */
 
 .bx-wrapper .bx-controls-direction a {
     z-index: 0 !important;
@@ -251,13 +314,3 @@ nav ul a:hover {
 }
 
 
-/*
- * Footer
- */
-ul#partenaires-list li {
-    display: inline;
-}
-
-.orange {
-  background-color: #F5AB35 !important;
-}
