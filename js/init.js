@@ -7,17 +7,21 @@
 })(jQuery); // end of jQuery name space
 
 $(document).ready(function() {
-    $(".bxslider").bxSlider({
-        auto: true,
-        autoControls: true
-    });
-    $(".fancybox").fancybox({
-        helpers: {
-            title : {
-                type : 'inside'
+    if ($(".bxslider").length > 0 ) {
+        $(".bxslider").bxSlider({
+            auto: true,
+            autoControls: true
+        });
+    }
+    if ($(".fancybox").length > 0) {
+        $(".fancybox").fancybox({
+            helpers: {
+                title : {
+                    type : 'inside'
+                }
             }
-        }
-    });
+        });
+    }
 });
 
 (function(d, s, id) {

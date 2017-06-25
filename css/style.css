@@ -28,8 +28,10 @@ h1 {
     margin-top: 0;
 }
 
+
 h2 {
-    font-size: 180%;
+    color: #d35400;
+    font-size: 150%;
     margin-top: 0;
 }
 /* ===================================================
@@ -45,14 +47,13 @@ nav {
     height: 220px;
     background-color: #F5AB35;
     box-shadow: none;
-    /*border-bottom: solid 3px #a90000;*/
 }
 
 nav .button-collapse {
     margin: 0 !important;
 }
 
-@media (max-width: 1455px) {
+@media (max-width: 1456px) {
     #countdown.block {
         height: auto !important;
         padding: 5px !important;
@@ -110,6 +111,10 @@ nav ul a:hover {
 }
 
 .follow-us img {
+    vertical-align: -10px;
+}
+
+.contact-facebook img {
     vertical-align: -10px;
 }
 /* ===================================================
@@ -206,6 +211,10 @@ ul#partenaires-list li {
     text-align: justify;
 }
 
+.bottom-info {
+    margin-top: 25px;
+    font-size: 80%;
+}
 /* ===================================================
  * Content General END
  * ===================================================
