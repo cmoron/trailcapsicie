@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>http://trailcapsicie.fr/</loc>
+</url>
+<url>
+  <loc>http://trailcapsicie.fr/index.html</loc>
+</url>
+<url>
+  <loc>http://trailcapsicie.fr/inscription.html</loc>
+</url>
+<url>
+  <loc>http://trailcapsicie.fr/parcours.html</loc>
+</url>
+<url>
+  <loc>http://trailcapsicie.fr/infos.html</loc>
+</url>
+<url>
+  <loc>http://trailcapsicie.fr/resultats.html</loc>
+</url>
+<url>
+  <loc>http://trailcapsicie.fr/photos.html</loc>
+</url>
+<url>
+  <loc>http://trailcapsicie.fr/benevoles.html</loc>
+</url>
+<url>
+  <loc>http://trailcapsicie.fr/contact.html</loc>
+</url>
+<url>
+  <loc>http://trailcapsicie.fr/documents/reglement.pdf</loc>
+  <lastmod>2017-06-25T21:12:19+00:00</lastmod>
+</url>
+</urlset>
