@@ -4,35 +4,59 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
 <url>
   <loc>http://trailducapsicie.fr/</loc>
+  <lastmod>2018-06-23T16:19:03+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
   <loc>http://trailducapsicie.fr/index.html</loc>
+  <lastmod>2018-06-23T16:19:03+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://trailducapsicie.fr/inscription.html</loc>
+  <lastmod>2018-06-12T11:28:19+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://trailducapsicie.fr/parcours.html</loc>
+  <lastmod>2018-06-23T16:19:03+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://trailducapsicie.fr/infos.html</loc>
+  <lastmod>2018-06-23T16:19:03+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://trailducapsicie.fr/resultats.html</loc>
+  <lastmod>2018-06-12T11:28:19+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://trailducapsicie.fr/photos.html</loc>
+  <lastmod>2018-06-12T11:28:19+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://trailducapsicie.fr/benevoles.html</loc>
+  <lastmod>2018-06-23T16:19:03+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://trailducapsicie.fr/contact.html</loc>
+  <lastmod>2018-06-12T11:28:19+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://trailducapsicie.fr/documents/reglement.pdf</loc>
-  <lastmod>2017-06-25T21:12:19+00:00</lastmod>
+  <loc>http://trailducapsicie.fr/documents/reglement_2018.pdf</loc>
+  <lastmod>2018-06-23T16:19:03+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
+
+
 </urlset>
